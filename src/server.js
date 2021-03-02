@@ -9,3 +9,4 @@ const server = app.listen(app.get("port"), async function () {
     await connectDB();
     console.log("Express server listening on port " + server.address().port)
 });
+module.exports = app;
